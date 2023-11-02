@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<title>test-html</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<script defer="defer" src="assets/vendor.js"></script>
+		<script defer="defer" src="assets/app.js"></script>
+		<link href="styles.css" rel="stylesheet">
+		<link href="app.css" rel="stylesheet">
+	</head>
+
+	<body class="body">
+		<div class="wrapper">
+			<header class="header container">
+				<div class="header-inner"><a class="header__logo" href="#"><svg width="244" height="50" viewbox="0 0 244 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M218.483 10.0081H220.062L227.753 27.1069H226.174L218.483 10.0081ZM228.85 27.1069H230.346L222.655 10.0081H221.158L228.85 27.1069ZM232.778 27.1069L232.916 26.9669L225.289 10.0081H223.793L231.484 27.1069H232.778ZM166.887 21.3048H154.2L154.062 21.1648H147.207L147.069 21.3056V22.8255H166.341L166.887 21.3048ZM147.069 23.7862V25.2263H165.478L165.995 23.7862H147.069ZM147.069 27.6279H164.616L165.134 26.1869H147.069V27.6279ZM83.998 33.1554L84.1363 33.2938H91.3435L91.4817 33.1554H103.644L103.039 31.6347H84.6729L83.998 33.1554ZM102.656 30.674L102.082 29.2339H85.7385L85.0991 30.674H102.656ZM101.125 26.8323H86.8056L86.1647 28.2732H101.7L101.125 26.8323ZM195.294 39.5105H196.783V21.1648H195.294V39.5105ZM197.724 39.5105H199.134V21.1648H197.724V39.5105ZM201.485 39.5105V21.3048L201.347 21.1648H200.212L200.074 21.3048V39.5105H201.485ZM117.38 10.0088V24.6615L117.518 24.7984H118.868V10.0088H117.38ZM119.809 24.7984H121.22V10.0088H119.809V24.7984ZM122.159 24.7984H123.57V10.0088H122.159V24.7984Z" fill="#00A3DA"></path>
+							<path d="M238.481 39.5105H230.701L228.202 33.2148H215.524L213.049 39.5105H205.241L217.917 11.0743L221.322 18.6349L218.013 26.9676H232.914L238.481 39.5105ZM154.198 28.5885H147.068V39.5105H169.861V33.189H154.198V28.5885ZM154.198 16.3311H169.403V10.0096H147.068V21.3048H154.198V16.3311ZM94.3009 10.0088L87.2334 25.8725H94.0986L97.5516 18.1953L106 39.5105H113.808L100.658 10.0088H94.3009ZM81.1782 39.5105H88.9584L91.481 33.1562H83.9965L81.1782 39.5105ZM130.719 10.0096H124.568V16.2083H131.215C134.341 16.2083 136.002 17.6125 136.002 20.309C136.002 23.0054 134.146 24.6623 131.215 24.6623H117.378V39.5105H123.62V30.8852H130.878C138.074 30.8852 142.263 27.2399 142.263 20.4232C142.263 13.7575 138.303 10.0096 130.719 10.0096ZM194.353 21.3048H183.016V10.0088H175.886V39.5105H183.016V27.6279H194.353V21.3056H201.484V10.0088H194.353V21.3048ZM51.8657 34.5596H56.2492C57.9117 34.5596 58.9193 34.1512 59.6243 33.232C59.9772 32.7729 60.4814 31.9562 60.4814 30.4253C60.4814 28.8936 59.9772 27.8219 58.9695 27.056C58.3649 26.5968 57.5588 26.3418 56.199 26.3418H51.8657V34.5596ZM46.0723 39.5105V10.0081H65.0155L63.353 14.959H51.8657V21.4925H56.5511C60.3301 21.4925 62.2952 22.4109 63.6549 23.5851C64.7136 24.5043 66.5273 26.546 66.5273 30.5778C66.5273 34.5596 64.6626 36.7538 63.1013 37.8772C61.2875 39.153 59.3726 39.5105 55.4933 39.5105H46.0723ZM29.295 39.5105V14.959H20.8816V10.0081H44.2585L42.5961 14.959H35.1394V39.5105H29.295ZM5.96826 21.7992H9.24295C10.2506 21.7992 10.7548 21.7992 11.2583 21.6459C12.6188 21.2375 13.4751 20.0125 13.4751 18.3283C13.4751 16.3374 12.5686 15.4699 11.2583 15.0615C10.7039 14.9082 10.1502 14.8573 9.04142 14.8573H5.96826V21.7992ZM6.01845 26.9027V34.6612H10.0491C11.2583 34.6612 12.3671 34.5596 13.1732 33.7937C13.9793 33.0279 14.3314 32.0579 14.3314 30.782C14.3314 29.812 14.0797 28.8936 13.5763 28.2302C12.7192 27.1585 11.6613 26.9027 9.84755 26.9027H6.01845ZM15.3391 23.7893V23.8918C16.4479 24.3001 17.5058 25.0143 18.0602 25.4735C19.7728 26.9027 20.5287 28.7919 20.5287 31.242C20.5287 35.2738 18.413 38.183 14.936 39.1022C13.8782 39.4081 12.7701 39.5105 10.7039 39.5105H0.174805V10.0081H9.49545C11.4096 10.0081 12.7192 10.1105 13.8782 10.4164C17.254 11.3356 19.4709 13.6832 19.4709 17.4091C19.4709 19.4 18.7651 21.0842 17.6061 22.2068C17.1027 22.7176 16.3977 23.3301 15.3391 23.7893Z" fill="#123063"></path>
+						</svg></a>
+					<div class="header__right"><a class="header__tel desktop" href="tel:+74951224222">8<span>495</span>122 4222</a>
+						<div class="header__button desktop">Позвонить</div><a class="header__icon" href="tel:+74951224222"><svg width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect width="40" height="40" rx="10" fill="#0194D8"></rect>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M22.3158 11.671C21.9938 11.6305 21.7043 11.8668 21.6693 12.1884C21.6335 12.51 21.8657 12.7989 22.1862 12.8347C24.8216 13.1284 26.8693 15.1748 27.1651 17.8126C27.1993 18.1119 27.4522 18.3332 27.7464 18.3332C27.7679 18.3332 27.7902 18.3316 27.8125 18.3292C28.1337 18.2934 28.3651 18.0036 28.3286 17.6813C27.9707 14.4959 25.4983 12.0237 22.3158 11.671ZM24.5937 17.8276C24.6523 18.1267 24.913 18.3332 25.2067 18.3332C25.2466 18.3332 25.2865 18.3289 25.3273 18.3221C25.6661 18.255 25.8868 17.927 25.8206 17.5879C25.4827 15.8527 24.1437 14.5144 22.4107 14.1762C22.0736 14.1175 21.7442 14.3308 21.6771 14.6707C21.6117 15.0098 21.8334 15.3386 22.1713 15.4041C23.4033 15.6437 24.3534 16.5954 24.5937 17.8276ZM23.5014 22.0981C23.8863 21.877 24.3211 21.6272 24.8696 21.7434C25.3664 21.8479 27.368 23.4389 27.8317 23.9126C28.1366 24.2233 28.3047 24.5442 28.3319 24.8652C28.3769 26.125 26.5129 27.7059 26.1995 27.885C25.7842 28.183 25.3019 28.3333 24.7584 28.3333C24.2038 28.3333 23.5865 28.177 22.9113 27.8629C19.2529 26.3424 13.6056 20.6958 12.1289 17.0791C11.5157 15.7326 11.5115 14.623 12.1178 13.7876C12.3607 13.3962 13.8884 11.6159 15.124 11.6677C15.4518 11.6957 15.772 11.8638 16.0845 12.1686C16.5584 12.6321 18.1498 14.6332 18.2542 15.1298C18.3689 15.6825 18.1167 16.1206 17.8942 16.5069L17.8939 16.5074C17.6656 16.9045 17.4679 17.2483 17.6267 17.6861C18.5268 19.891 20.1072 21.4709 22.3211 22.3742C22.7525 22.5304 23.0956 22.3326 23.4922 22.1034L23.5014 22.0981Z" fill="white"></path>
+							</svg></a>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<section class="main-hero">
+					<div class="main-hero__bg">
+						<picture class="picture">
+							<source type="image/webp" srcset="assets/images/main-bg.webp"><img class="picture__img" src="assets/images/main-bg.png">
+						</picture>
+					</div>
+					<div class="main-hero__content container">
+						<div class="main-hero__content-col texts">
+							<h1 class="main-hero__title">Помещение свободного назначения</h1>
+							<div class="main-hero__top">
+								<h2 class="main-hero__text">Бизнес-центр А-класса «АРЕНА»</h2>
+								<div class="main-hero__icon"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="12" y="6" width="9" height="9" transform="rotate(45 12 6)" fill="#0194D8"></rect>
+									</svg></div>
+								<div class="main-hero__text">1 этаж</div>
+							</div>
+							<div class="main-hero__bot">
+								<div class="main-hero__bot-col">
+									<div class="main-hero__num-title">584,4 м<sup>2</sup></div>
+									<div class="main-hero__grey">Площадь</div>
+								</div>
+								<div class="main-hero__bot-col">
+									<div class="main-hero__num-title">50 000 ₽/м<sup>2</sup>/год</div>
+									<div class="main-hero__grey">без учёта НДС</div>
+								</div>
+							</div>
+						</div>
+						<div class="main-hero__content-col img">
+							<div class="main-hero__rect">
+								<div class="main-hero__rect-plus"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect width="50" height="50" rx="15" fill="#EFF5FB"></rect>
+										<path d="M24 32C28.4183 32 32 28.4183 32 24C32 19.5817 28.4183 16 24 16C19.5817 16 16 19.5817 16 24C16 28.4183 19.5817 32 24 32Z" stroke="#0194D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M34.0004 34L29.6504 29.65" stroke="#0194D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M24 21V27" stroke="#0194D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M21 24H27" stroke="#0194D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									</svg></div>
+								<div class="main-hero__rect-img">
+									<picture class="picture">
+										<source type="image/webp" srcset="assets/images/hero-map.webp"><img class="picture__img" src="assets/images/hero-map.png">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="main-special container">
+					<div class="main-special__title">Особенности</div>
+					<div class="main-special__items">
+						<div class="main-special__item">
+							<div class="main-special__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4748)"></rect>
+									<path d="M33.2857 22.6C33.2857 23.6214 32.8009 24.9709 31.9177 26.521C31.0523 28.04 29.8832 29.6176 28.6906 31.06C27.5017 32.498 26.3096 33.7774 25.4131 34.6985C25.1521 34.9667 24.9167 35.204 24.7143 35.4054C24.5119 35.204 24.2765 34.9667 24.0154 34.6985C23.119 33.7774 21.9269 32.498 20.7379 31.06C19.5454 29.6176 18.3762 28.04 17.5109 26.521C16.6277 24.9709 16.1429 23.6214 16.1429 22.6C16.1429 17.942 19.9676 14.1429 24.7143 14.1429C29.4609 14.1429 33.2857 17.942 33.2857 22.6Z" stroke="white" stroke-width="2.28571"></path>
+									<circle cx="24.7148" cy="22.7142" r="2.85714" stroke="white" stroke-width="2.28571"></circle>
+									<defs>
+										<radialgradient id="paint0_radial_416_4748" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-special__item-text">Первая линия домов</div>
+						</div>
+						<div class="main-special__item">
+							<div class="main-special__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4755)"></rect>
+									<g clip-path="url(#clip0_416_4755)">
+										<mask id="mask0_416_4755" style="mask-type:luminance" maskunits="userSpaceOnUse" x="13" y="13" width="24" height="24">
+											<path d="M13 13.0001H36.9999V37H13V13.0001Z" fill="white"></path>
+										</mask>
+										<g mask="url(#mask0_416_4755)">
+											<path d="M34.2187 36.0625H15.7812V13.9376H34.2187V36.0625Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M25 13.9376V36.0625" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M15.7812 25H34.2187" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+										</g>
+									</g>
+									<defs>
+										<radialgradient id="paint0_radial_416_4755" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+										<clippath id="clip0_416_4755">
+											<rect width="24" height="24" fill="white" transform="translate(13 13)"></rect>
+										</clippath>
+									</defs>
+								</svg></div>
+							<div class="main-special__item-text">Витринные окна</div>
+						</div>
+						<div class="main-special__item">
+							<div class="main-special__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4768)"></rect>
+									<path d="M33.7273 18.2381H37V20.3968H35.9091V32.2698H37V34.4286H13V32.2698H14.0909V20.3968H13V18.2381H16.2727V16.0794C16.2727 15.7931 16.3877 15.5186 16.5922 15.3161C16.7968 15.1137 17.0743 15 17.3636 15H32.6364C32.9257 15 33.2032 15.1137 33.4078 15.3161C33.6123 15.5186 33.7273 15.7931 33.7273 16.0794V18.2381ZM33.7273 20.3968H16.2727V32.2698H19.5455V24.7143H21.7273V32.2698H23.9091V24.7143H26.0909V32.2698H28.2727V24.7143H30.4545V32.2698H33.7273V20.3968ZM18.4545 17.1587V18.2381H31.5455V17.1587H18.4545Z" fill="white"></path>
+									<defs>
+										<radialgradient id="paint0_radial_416_4768" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-special__item-text">Хорошая заметность</div>
+						</div>
+						<div class="main-special__item">
+							<div class="main-special__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4773)"></rect>
+									<path d="M33.5 18H33V17C33 16.4696 32.7893 15.9609 32.4142 15.5858C32.0391 15.2107 31.5304 15 31 15H17C16.4696 15 15.9609 15.2107 15.5858 15.5858C15.2107 15.9609 15 16.4696 15 17V20C15 20.5304 15.2107 21.0391 15.5858 21.4142C15.9609 21.7893 16.4696 22 17 22H31C31.5304 22 32.0391 21.7893 32.4142 21.4142C32.7893 21.0391 33 20.5304 33 20V19H33.5C33.6326 19 33.7598 19.0527 33.8536 19.1464C33.9473 19.2402 34 19.3674 34 19.5V23.5C34 23.6326 33.9473 23.7598 33.8536 23.8536C33.7598 23.9473 33.6326 24 33.5 24H25C24.6022 24 24.2206 24.158 23.9393 24.4393C23.658 24.7206 23.5 25.1022 23.5 25.5V26.755C23.0335 27.1149 22.6557 27.577 22.3957 28.1058C22.1357 28.6345 22.0003 29.2158 22 29.805V35C22 35.3978 22.158 35.7794 22.4393 36.0607C22.7206 36.342 23.1022 36.5 23.5 36.5H24.5C24.8978 36.5 25.2794 36.342 25.5607 36.0607C25.842 35.7794 26 35.3978 26 35V29.805C25.9997 29.2158 25.8643 28.6345 25.6043 28.1058C25.3443 27.577 24.9665 27.1149 24.5 26.755V25.5C24.5 25.3674 24.5527 25.2402 24.6464 25.1464C24.7402 25.0527 24.8674 25 25 25H33.5C33.8978 25 34.2794 24.842 34.5607 24.5607C34.842 24.2794 35 23.8978 35 23.5V19.5C35 19.1022 34.842 18.7206 34.5607 18.4393C34.2794 18.158 33.8978 18 33.5 18ZM32 20C32 20.2652 31.8946 20.5196 31.7071 20.7071C31.5196 20.8946 31.2652 21 31 21H17C16.7348 21 16.4804 20.8946 16.2929 20.7071C16.1054 20.5196 16 20.2652 16 20V17C16 16.7348 16.1054 16.4804 16.2929 16.2929C16.4804 16.1054 16.7348 16 17 16H31C31.2652 16 31.5196 16.1054 31.7071 16.2929C31.8946 16.4804 32 16.7348 32 17V20ZM25 29.805V35C25 35.1326 24.9473 35.2598 24.8536 35.3536C24.7598 35.4473 24.6326 35.5 24.5 35.5H23.5C23.3674 35.5 23.2402 35.4473 23.1464 35.3536C23.0527 35.2598 23 35.1326 23 35V29.805C22.9996 29.391 23.0887 28.9818 23.2614 28.6055C23.434 28.2292 23.6859 27.8947 24 27.625C24.3141 27.8947 24.566 28.2292 24.7386 28.6055C24.9113 28.9818 25.0004 29.391 25 29.805Z" fill="white" stroke="white" stroke-width="0.8"></path>
+									<defs>
+										<radialgradient id="paint0_radial_416_4773" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-special__item-text">Без отделки</div>
+						</div>
+						<div class="main-special__item">
+							<div class="main-special__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4780)"></rect>
+									<path d="M25 15L15 20L25 25L35 20L25 15Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M15 30L25 35L35 30" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M15 25L25 30L35 25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<defs>
+										<radialgradient id="paint0_radial_416_4780" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-special__item-text">Пол на уровне земли</div>
+						</div>
+						<div class="main-special__item">
+							<div class="main-special__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4788)"></rect>
+									<path d="M18.7041 27.7948C18.7068 27.7907 18.7115 27.7831 18.7162 27.7718C18.7208 27.7609 18.7239 27.7503 18.7258 27.741C18.7274 27.7326 18.7275 27.7277 18.7275 27.7273L18.7041 27.7948ZM18.7041 27.7948L18.6367 27.7274L18.6366 27.7273L18.6366 27.7273L18.6364 27.7271L17.9974 27.0881L18.6358 27.7273L18.636 27.7275L18.6362 27.7277L18.6367 27.7281L18.7041 27.7948ZM25.0002 33.955L18.8635 27.8184H31.1368L25.0002 33.955ZM25.0002 16.0448L31.1371 22.1817H18.8633L25.0002 16.0448Z" stroke="white" stroke-width="2"></path>
+									<defs>
+										<radialgradient id="paint0_radial_416_4788" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-special__item-text">Лестница и два лифта</div>
+						</div>
+						<div class="main-special__item">
+							<div class="main-special__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4795)"></rect>
+									<path d="M35.5 29.6666V20.3333C35.4996 19.9241 35.3916 19.5222 35.1868 19.168C34.982 18.8137 34.6877 18.5196 34.3333 18.315L26.1667 13.6483C25.812 13.4435 25.4096 13.3357 25 13.3357C24.5904 13.3357 24.188 13.4435 23.8333 13.6483L15.6667 18.315C15.3123 18.5196 15.018 18.8137 14.8132 19.168C14.6084 19.5222 14.5004 19.9241 14.5 20.3333V29.6666C14.5004 30.0758 14.6084 30.4777 14.8132 30.8319C15.018 31.1862 15.3123 31.4804 15.6667 31.685L23.8333 36.3516C24.188 36.5564 24.5904 36.6642 25 36.6642C25.4096 36.6642 25.812 36.5564 26.1667 36.3516L34.3333 31.685C34.6877 31.4804 34.982 31.1862 35.1868 30.8319C35.3916 30.4777 35.4996 30.0758 35.5 29.6666Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M14.8145 19.12L24.9995 25.0117L35.1845 19.12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M25 36.76V25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<defs>
+										<radialgradient id="paint0_radial_416_4795" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-special__item-text">Потолки 4,2 м</div>
+						</div>
+						<div class="main-special__item">
+							<div class="main-special__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4803)"></rect>
+									<g clip-path="url(#clip0_416_4803)">
+										<path d="M35.5 37H32.5C31.673 37 31 36.327 31 35.5V14.5C31 13.673 31.673 13 32.5 13H35.5C36.327 13 37 13.673 37 14.5V35.5C37 36.327 36.327 37 35.5 37ZM32.5 14C32.3674 14 32.2402 14.0527 32.1464 14.1464C32.0527 14.2402 32 14.3674 32 14.5V35.5C32 35.6326 32.0527 35.7598 32.1464 35.8536C32.2402 35.9473 32.3674 36 32.5 36H35.5C35.6326 36 35.7598 35.9473 35.8536 35.8536C35.9473 35.7598 36 35.6326 36 35.5V14.5C36 14.3674 35.9473 14.2402 35.8536 14.1464C35.7598 14.0527 35.6326 14 35.5 14H32.5ZM26.5 37H23.5C22.673 37 22 36.327 22 35.5V14.5C22 13.673 22.673 13 23.5 13H26.5C27.327 13 28 13.673 28 14.5V35.5C28 36.327 27.327 37 26.5 37ZM23.5 14C23.3674 14 23.2402 14.0527 23.1464 14.1464C23.0527 14.2402 23 14.3674 23 14.5V35.5C23 35.6326 23.0527 35.7598 23.1464 35.8536C23.2402 35.9473 23.3674 36 23.5 36H26.5C26.6326 36 26.7598 35.9473 26.8536 35.8536C26.9473 35.7598 27 35.6326 27 35.5V14.5C27 14.3674 26.9473 14.2402 26.8536 14.1464C26.7598 14.0527 26.6326 14 26.5 14H23.5ZM17.5 37H14.5C13.673 37 13 36.327 13 35.5V14.5C13 13.673 13.673 13 14.5 13H17.5C18.327 13 19 13.673 19 14.5V35.5C19 36.327 18.327 37 17.5 37ZM14.5 14C14.3674 14 14.2402 14.0527 14.1464 14.1464C14.0527 14.2402 14 14.3674 14 14.5V35.5C14 35.6326 14.0527 35.7598 14.1464 35.8536C14.2402 35.9473 14.3674 36 14.5 36H17.5C17.6326 36 17.7598 35.9473 17.8536 35.8536C17.9473 35.7598 18 35.6326 18 35.5V14.5C18 14.3674 17.9473 14.2402 17.8536 14.1464C17.7598 14.0527 17.6326 14 17.5 14H14.5Z" fill="white" stroke="white"></path>
+									</g>
+									<defs>
+										<radialgradient id="paint0_radial_416_4803" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+										<clippath id="clip0_416_4803">
+											<rect width="26" height="26" fill="white" transform="translate(12 12)"></rect>
+										</clippath>
+									</defs>
+								</svg></div>
+							<div class="main-special__item-text">Шаг колонн 9х9 м</div>
+						</div>
+						<div class="main-special__item start">
+							<div class="main-special__item-icon img">
+								<picture class="picture">
+									<source type="image/webp" srcset="assets/images/vhod-svg.webp"><img class="picture__img" src="assets/images/vhod-svg.png">
+								</picture>
+							</div>
+							<div class="main-special__item-text">Просторная входная группа</div>
+						</div>
+						<div class="main-special__item start">
+							<div class="main-special__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4818)"></rect>
+									<path d="M28.5 14.5H33.1667C33.7855 14.5 34.379 14.7458 34.8166 15.1834C35.2542 15.621 35.5 16.2145 35.5 16.8333V33.1667C35.5 33.7855 35.2542 34.379 34.8166 34.8166C34.379 35.2542 33.7855 35.5 33.1667 35.5H28.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M22.667 30.8333L28.5003 25L22.667 19.1666" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M28.5 25H14.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<defs>
+										<radialgradient id="paint0_radial_416_4818" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-special__item-text">Дополнительный вход со двора</div>
+						</div>
+						<div class="main-special__item start">
+							<div class="main-special__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4826)"></rect>
+									<path d="M29 16H14V29H29V16Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M29 21H33L36 24V29H29V21Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M18.5 34C19.8807 34 21 32.8807 21 31.5C21 30.1193 19.8807 29 18.5 29C17.1193 29 16 30.1193 16 31.5C16 32.8807 17.1193 34 18.5 34Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M31.5 34C32.8807 34 34 32.8807 34 31.5C34 30.1193 32.8807 29 31.5 29C30.1193 29 29 30.1193 29 31.5C29 32.8807 30.1193 34 31.5 34Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<defs>
+										<radialgradient id="paint0_radial_416_4826" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-special__item-text">Погрузка-разгрузка с подземной парковки</div>
+						</div>
+						<div class="main-special__item start">
+							<div class="main-special__item-icon img">
+								<picture class="picture">
+									<source type="image/webp" srcset="assets/images/keys-svg.webp"><img class="picture__img" src="assets/images/keys-svg.png">
+								</picture>
+							</div>
+							<div class="main-special__item-text">Возможность аренды вспомогательных площадей на −1-м этаже</div>
+						</div>
+					</div>
+				</section>
+				<section class="main-sistems container">
+					<div class="main-sistems__title">Инженерные системы</div>
+					<div class="main-sistems__items">
+						<div class="main-sistems__item">
+							<div class="main-sistems__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4847)"></rect>
+									<path d="M26 15L16 27H25L24 35L34 23H25L26 15Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<defs>
+										<radialgradient id="paint0_radial_416_4847" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-sistems__item-texts">
+								<div class="main-sistems__item-title">Электроснабжение</div>
+								<div class="main-sistems__item-desk">20 кВт</div>
+							</div>
+						</div>
+						<div class="main-sistems__item">
+							<div class="main-sistems__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4854)"></rect>
+									<path d="M25.6774 33.4113C25.6774 34.563 24.7404 35.5 23.5887 35.5C22.437 35.5 21.5 34.563 21.5 33.4113C21.5 32.5829 21.9848 31.8656 22.6855 31.5282V23.0242C22.6855 22.5253 23.0898 22.121 23.5887 22.121C24.0876 22.121 24.4919 22.5253 24.4919 23.0242V31.5282C25.1927 31.8656 25.6774 32.5829 25.6774 33.4113ZM31.7177 15.0645C31.7177 15.5634 31.3134 15.9677 30.8145 15.9677H27.371V19.8065H29.6855C30.1843 19.8065 30.5887 20.2108 30.5887 20.7097C30.5887 21.2085 30.1843 21.6129 29.6855 21.6129H27.371V25.4516H28.5565C29.0553 25.4516 29.4597 25.856 29.4597 26.3548C29.4597 26.8537 29.0553 27.2581 28.5565 27.2581H27.371V29.2965C28.5244 30.3534 29.1774 31.8291 29.1774 33.4113C29.1774 36.4929 26.6704 39 23.5887 39C20.5071 39 18 36.4929 18 33.4113C18 31.8292 18.6531 30.3535 19.8065 29.2965V14.7823C19.8065 12.6967 21.5032 11 23.5887 11C25.4627 11 27.0219 12.3702 27.3191 14.1613H30.8145C31.3134 14.1613 31.7177 14.5657 31.7177 15.0645ZM27.371 33.4113C27.371 32.2372 26.8394 31.1496 25.9125 30.4273C25.8042 30.3428 25.7165 30.2347 25.6562 30.1113C25.5958 29.9878 25.5645 29.8522 25.5645 29.7148V14.7823C25.5645 13.6928 24.6782 12.8065 23.5887 12.8065C22.4993 12.8065 21.6129 13.6928 21.6129 14.7823V29.7148C21.6129 29.9933 21.4845 30.2562 21.2649 30.4273C20.338 31.1496 19.8065 32.2373 19.8065 33.4113C19.8065 35.4968 21.5032 37.1935 23.5887 37.1935C25.6743 37.1935 27.371 35.4968 27.371 33.4113Z" fill="white"></path>
+									<defs>
+										<radialgradient id="paint0_radial_416_4854" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-sistems__item-texts">
+								<div class="main-sistems__item-title">Теплоснабжение</div>
+								<div class="main-sistems__item-desk">центральное</div>
+							</div>
+						</div>
+						<div class="main-sistems__item">
+							<div class="main-sistems__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4862)"></rect>
+									<path d="M24.9999 15.69L30.6599 21.35C31.7792 22.4686 32.5417 23.8941 32.8508 25.4461C33.1599 26.998 33.0018 28.6069 32.3964 30.069C31.7911 31.5311 30.7657 32.7808 29.45 33.6601C28.1343 34.5394 26.5874 35.0087 25.0049 35.0087C23.4224 35.0087 21.8755 34.5394 20.5598 33.6601C19.2441 32.7808 18.2187 31.5311 17.6133 30.069C17.008 28.6069 16.8499 26.998 17.159 25.4461C17.4681 23.8941 18.2305 22.4686 19.3499 21.35L24.9999 15.69Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<defs>
+										<radialgradient id="paint0_radial_416_4862" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-sistems__item-texts">
+								<div class="main-sistems__item-title">Водоснабжение</div>
+								<div class="main-sistems__item-desk">и водоотведение</div>
+							</div>
+						</div>
+						<div class="main-sistems__item">
+							<div class="main-sistems__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4869)"></rect>
+									<path d="M22.59 17.09C22.8223 16.8563 23.1088 16.6836 23.4239 16.5873C23.739 16.491 24.073 16.4741 24.3963 16.538C24.7195 16.6019 25.022 16.7447 25.2768 16.9536C25.5315 17.1626 25.7307 17.4313 25.8566 17.7358C25.9825 18.0403 26.0313 18.3712 25.9985 18.699C25.9657 19.0269 25.8524 19.3416 25.6687 19.6151C25.4849 19.8887 25.2365 20.1126 24.9454 20.2669C24.6542 20.4213 24.3295 20.5014 24 20.5H15M25.59 31.91C25.8223 32.1437 26.1088 32.3163 26.4239 32.4126C26.739 32.5089 27.073 32.5259 27.3963 32.462C27.7195 32.3981 28.022 32.2553 28.2768 32.0463C28.5315 31.8374 28.7307 31.5687 28.8566 31.2642C28.9825 30.9597 29.0313 30.6288 28.9985 30.3009C28.9657 29.973 28.8524 29.6584 28.6687 29.3848C28.4849 29.1113 28.2365 28.8874 27.9454 28.733C27.6542 28.5786 27.3295 28.4986 27 28.5H15M30.73 20.23C31.0208 19.9399 31.3787 19.7259 31.7719 19.607C32.1652 19.4881 32.5816 19.4679 32.9845 19.5483C33.3874 19.6286 33.7642 19.807 34.0817 20.0677C34.3993 20.3283 34.6477 20.6632 34.805 21.0427C34.9623 21.4222 35.0236 21.8346 34.9836 22.2434C34.9436 22.6523 34.8035 23.045 34.5756 23.3868C34.3477 23.7286 34.0391 24.009 33.6771 24.2031C33.3151 24.3973 32.9108 24.4992 32.5 24.5H15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<defs>
+										<radialgradient id="paint0_radial_416_4869" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-sistems__item-texts">
+								<div class="main-sistems__item-title">Вентиляция</div>
+								<div class="main-sistems__item-desk">приточно-вытяжная</div>
+							</div>
+						</div>
+						<div class="main-sistems__item">
+							<div class="main-sistems__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4876)"></rect>
+									<g clip-path="url(#clip0_416_4876)">
+										<path d="M15.58 25.875H34.4237C35.1067 25.874 35.7614 25.6023 36.2443 25.1193C36.7273 24.6364 36.999 23.9817 37 23.2987V16.58C37 15.8964 36.7287 15.2407 36.2457 14.757C35.7626 14.2733 35.1074 14.001 34.4237 14H15.58C14.8957 14 14.2395 14.2718 13.7557 14.7557C13.2718 15.2395 13 15.8957 13 16.58V23.2987C13.001 23.9824 13.2733 24.6376 13.757 25.1207C14.2407 25.6037 14.8964 25.875 15.58 25.875ZM14.5 16.58C14.5 16.2936 14.6138 16.0189 14.8163 15.8163C15.0189 15.6138 15.2936 15.5 15.58 15.5H34.4237C34.7095 15.501 34.9833 15.6152 35.185 15.8176C35.3867 16.0201 35.5 16.2942 35.5 16.58V23.2987C35.499 23.5839 35.3853 23.8571 35.1837 24.0587C34.9821 24.2603 34.7089 24.374 34.4237 24.375H15.58C15.2942 24.375 15.0201 24.2617 14.8176 24.06C14.6152 23.8583 14.501 23.5845 14.5 23.2987V16.58Z" fill="white" stroke="white" stroke-width="0.6"></path>
+										<path d="M17.6875 22.5H32.3125C32.5114 22.5 32.7022 22.421 32.8428 22.2803C32.9835 22.1397 33.0625 21.9489 33.0625 21.75C33.0625 21.5511 32.9835 21.3603 32.8428 21.2197C32.7022 21.079 32.5114 21 32.3125 21H17.6875C17.4886 21 17.2978 21.079 17.1572 21.2197C17.0165 21.3603 16.9375 21.5511 16.9375 21.75C16.9375 21.9489 17.0165 22.1397 17.1572 22.2803C17.2978 22.421 17.4886 22.5 17.6875 22.5Z" fill="white" stroke="white" stroke-width="0.6"></path>
+										<path d="M33.25 18.5C33.6642 18.5 34 18.1642 34 17.75C34 17.3358 33.6642 17 33.25 17C32.8358 17 32.5 17.3358 32.5 17.75C32.5 18.1642 32.8358 18.5 33.25 18.5Z" fill="white" stroke="white" stroke-width="0.6"></path>
+										<path d="M27.2495 27.8125C27.0506 27.8125 26.8599 27.8915 26.7192 28.0322C26.5785 28.1728 26.4995 28.3636 26.4995 28.5625V33.6175C26.4988 34.2164 26.6757 34.802 27.008 35.3002C27.3402 35.7984 27.8128 36.1869 28.366 36.4164C28.9191 36.6459 29.5279 36.7062 30.1153 36.5895C30.7026 36.4729 31.2422 36.1846 31.6657 35.7611C32.0891 35.3377 32.3774 34.7981 32.4941 34.2107C32.6107 33.6233 32.5505 33.0145 32.321 32.4614C32.0914 31.9083 31.703 31.4357 31.2047 31.1035C30.7065 30.7712 30.1209 30.5943 29.522 30.595C29.3231 30.595 29.1324 30.674 28.9917 30.8147C28.851 30.9553 28.772 31.1461 28.772 31.345C28.772 31.5439 28.851 31.7347 28.9917 31.8753C29.1324 32.016 29.3231 32.095 29.522 32.095C29.8232 32.095 30.1175 32.1843 30.3679 32.3516C30.6183 32.5189 30.8134 32.7567 30.9286 33.0349C31.0439 33.3131 31.074 33.6192 31.0153 33.9145C30.9565 34.2099 30.8115 34.4811 30.5986 34.6941C30.3857 34.907 30.1144 35.052 29.8191 35.1107C29.5237 35.1695 29.2176 35.1393 28.9394 35.0241C28.6612 34.9089 28.4234 34.7137 28.2561 34.4634C28.0888 34.213 27.9995 33.9186 27.9995 33.6175V28.5625C27.9995 28.3636 27.9205 28.1728 27.7799 28.0322C27.6392 27.8915 27.4484 27.8125 27.2495 27.8125ZM21.2495 28.5625V32.7925C21.2585 32.9495 21.2353 33.1066 21.1814 33.2543C21.1275 33.402 21.044 33.5371 20.9361 33.6514C20.8281 33.7657 20.6979 33.8567 20.5536 33.919C20.4092 33.9812 20.2536 34.0133 20.0964 34.0133C19.9392 34.0133 19.7836 33.9812 19.6392 33.919C19.4949 33.8567 19.3647 33.7657 19.2568 33.6514C19.1488 33.5371 19.0653 33.402 19.0114 33.2543C18.9575 33.1066 18.9343 32.9495 18.9433 32.7925C18.9433 32.5936 18.8643 32.4028 18.7236 32.2622C18.583 32.1215 18.3922 32.0425 18.1933 32.0425C17.9944 32.0425 17.8036 32.1215 17.663 32.2622C17.5223 32.4028 17.4433 32.5936 17.4433 32.7925C17.4299 33.1493 17.4886 33.5052 17.6158 33.8387C17.7431 34.1723 17.9364 34.4768 18.1841 34.734C18.4318 34.9912 18.7288 35.1958 19.0574 35.3355C19.386 35.4752 19.7393 35.5473 20.0964 35.5473C20.4535 35.5473 20.8069 35.4752 21.1354 35.3355C21.464 35.1958 21.761 34.9912 22.0087 34.734C22.2564 34.4768 22.4497 34.1723 22.577 33.8387C22.7043 33.5052 22.7629 33.1493 22.7495 32.7925V28.5625C22.7495 28.3636 22.6705 28.1728 22.5299 28.0322C22.3892 27.8915 22.1984 27.8125 21.9995 27.8125C21.8006 27.8125 21.6099 27.8915 21.4692 28.0322C21.3285 28.1728 21.2495 28.3636 21.2495 28.5625ZM23.8745 28.5625V31.9375C23.8745 32.1364 23.9535 32.3272 24.0942 32.4678C24.2349 32.6085 24.4256 32.6875 24.6245 32.6875C24.8234 32.6875 25.0142 32.6085 25.1549 32.4678C25.2955 32.3272 25.3745 32.1364 25.3745 31.9375V28.5625C25.3745 28.3636 25.2955 28.1728 25.1549 28.0322C25.0142 27.8915 24.8234 27.8125 24.6245 27.8125C24.4256 27.8125 24.2349 27.8915 24.0942 28.0322C23.9535 28.1728 23.8745 28.3636 23.8745 28.5625Z" fill="white" stroke="white" stroke-width="0.6"></path>
+									</g>
+									<defs>
+										<radialgradient id="paint0_radial_416_4876" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+										<clippath id="clip0_416_4876">
+											<rect width="26" height="24" fill="white" transform="translate(12 13)"></rect>
+										</clippath>
+									</defs>
+								</svg></div>
+							<div class="main-sistems__item-texts">
+								<div class="main-sistems__item-title">Кондиционирование</div>
+								<div class="main-sistems__item-desk">центральное</div>
+							</div>
+						</div>
+						<div class="main-sistems__item">
+							<div class="main-sistems__item-icon"><svg width="50" height="50" viewbox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="50" height="50" rx="15" fill="url(#paint0_radial_416_4887)"></rect>
+									<path d="M20.5125 20.675C20.625 20.3937 20.4938 20.0563 20.1938 19.9438C19.9125 19.8313 19.575 19.9625 19.4625 20.2625C19.2375 20.825 19.125 21.4437 19.125 22.0625V34.625C19.125 35.5625 19.875 36.3125 20.8125 36.3125H27.1875C28.125 36.3125 28.875 35.5625 28.875 34.625V22.0625C28.875 19.3812 26.6813 17.1875 24 17.1875C23.4563 17.1875 22.9313 17.2812 22.4062 17.45C22.1063 17.5437 21.9562 17.8625 22.05 18.1625C22.1437 18.4625 22.4625 18.6125 22.7625 18.5187C23.1563 18.3875 23.5688 18.3125 23.9813 18.3125C26.0438 18.3125 27.7313 20 27.7313 22.0625V34.625C27.7313 34.9438 27.4875 35.1875 27.1688 35.1875H20.8125C20.4937 35.1875 20.25 34.9438 20.25 34.625V22.0625C20.25 21.5938 20.3438 21.125 20.5125 20.675Z" fill="white" stroke="white"></path>
+									<path d="M17.0625 22.625C17.3813 22.625 17.625 22.3813 17.625 22.0625C17.625 18.5562 20.4937 15.6875 24 15.6875H27.8438C28.05 16.3438 28.65 16.85 29.3812 16.925L35.1937 17.5625H35.25C35.3813 17.5625 35.5312 17.5063 35.625 17.4125C35.7375 17.3 35.8125 17.15 35.8125 17V13.25C35.8125 13.0813 35.7375 12.9312 35.625 12.8375C35.5125 12.7437 35.3438 12.6875 35.1937 12.6875L29.3812 13.325C28.65 13.4 28.0688 13.9062 27.8438 14.5625H24.5625V13.25C24.5625 12.9312 24.3187 12.6875 24 12.6875C23.6813 12.6875 23.4375 12.9312 23.4375 13.25V14.5813C19.5562 14.8813 16.5 18.125 16.5 22.0625C16.5 22.3813 16.7437 22.625 17.0625 22.625ZM29.4938 14.4313L34.6875 13.8688V16.3625L29.4938 15.8C29.1375 15.7812 28.875 15.4813 28.875 15.125C28.875 14.7687 29.1375 14.4688 29.4938 14.4313Z" fill="white" stroke="white"></path>
+									<defs>
+										<radialgradient id="paint0_radial_416_4887" cx="0" cy="0" r="1" gradientunits="userSpaceOnUse" gradienttransform="translate(-1.3113e-06 50) rotate(-45.6296) scale(64.3506)">
+											<stop stop-color="#0194D8"></stop>
+											<stop offset="1" stop-color="#4A36C6"></stop>
+										</radialgradient>
+									</defs>
+								</svg></div>
+							<div class="main-sistems__item-texts">
+								<div class="main-sistems__item-title">Пожарная сигнализация</div>
+								<div class="main-sistems__item-desk">и автоматическое пожаротушение</div>
+							</div>
+						</div>
+					</div>
+					<div class="main-sistems__rects">
+						<div class="main-sistems__rects-img">
+							<picture class="picture">
+								<source type="image/webp" srcset="assets/images/build-img.webp"><img class="picture__img" src="assets/images/build-img.png">
+							</picture>
+						</div>
+						<div class="main-sistems__rects-map">
+							<div class="main-sistems__map" id="map"></div>
+						</div>
+					</div>
+				</section>
+				<div class="popup-img">
+					<div class="popup-img__inner">
+						<div class="popup-img__close"><svg width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect width="40" height="40" rx="15" fill="#EDF6FC"></rect>
+								<path d="M19.5 20.9732L15.4787 25L14.0151 23.5344L18.0364 19.5076L14 15.4656L15.4636 14L19.5 18.0419L23.5364 14L25 15.4656L20.9636 19.5076L24.9849 23.5344L23.5213 25L19.5 20.9732Z" fill="#123063"></path>
+							</svg></div>
+						<div class="popup-img__img">
+							<picture class="picture">
+								<source type="image/webp" srcset="assets/images/popup-img.webp"><img class="picture__img" src="assets/images/popup-img.png">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer-inner container">
+					<div class="footer-row">
+						<div class="footer__logo left desktop"><svg width="262" height="50" viewbox="0 0 262 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M234.601 8.759H236.297L244.556 27.2827H242.86L234.601 8.759ZM245.733 27.2827H247.339L239.081 8.759H237.474L245.733 27.2827ZM249.951 27.2827L250.099 27.131L241.909 8.759H240.303L248.561 27.2827H249.951ZM179.199 20.9971H165.576L165.427 20.8454H158.067L157.919 20.998V22.6446H178.613L179.199 20.9971ZM157.919 23.6853V25.2454H177.686L178.241 23.6853H157.919ZM157.919 27.8471H176.761L177.317 26.2861H157.919V27.8471ZM90.1953 33.8353L90.3437 33.9853H98.0827L98.2311 33.8353H111.29L110.64 32.1878H90.92L90.1953 33.8353ZM110.229 31.1471L109.613 29.587H92.0641L91.3776 31.1471H110.229ZM108.586 26.9853H93.21L92.5218 28.5463H109.203L108.586 26.9853ZM209.702 40.72H211.301V20.8454H209.702V40.72ZM212.311 40.72H213.825V20.8454H212.311V40.72ZM216.349 40.72V20.9971L216.201 20.8454H214.983L214.834 20.9971V40.72H216.349ZM126.04 8.75985V24.6336L126.188 24.7819H127.638V8.75985H126.04ZM128.648 24.7819H130.163V8.75985H128.648V24.7819ZM131.172 24.7819H132.687V8.75985H131.172V24.7819Z" fill="white"></path>
+								<path d="M256.076 40.7195H247.722L245.039 33.8992H231.426L228.769 40.7195H220.385L233.996 9.91357L237.652 18.1042L234.099 27.1314H250.099L256.076 40.7195ZM165.576 28.8873H157.92V40.7195H182.395V33.8712H165.576V28.8873ZM165.576 15.6085H181.902V8.76018H157.92V20.9966H165.576V15.6085ZM101.26 8.75933L93.6713 25.9449H101.043L104.751 17.628L113.822 40.7195H122.206L108.086 8.75933H101.26ZM87.1694 40.7195H95.5236L98.2323 33.8356H90.1957L87.1694 40.7195ZM140.365 8.76018H133.76V15.4754H140.898C144.254 15.4754 146.038 16.9966 146.038 19.9178C146.038 22.839 144.045 24.6339 140.898 24.6339H126.04V40.7195H132.742V31.3754H140.535C148.263 31.3754 152.761 27.4263 152.761 20.0415C152.761 12.8203 148.508 8.76018 140.365 8.76018ZM208.693 20.9966H196.52V8.75933H188.864V40.7195H196.52V27.8466H208.693V20.9975H216.35V8.75933H208.693V20.9966ZM55.6946 35.3559H60.4015C62.1866 35.3559 63.2686 34.9136 64.0256 33.9178C64.4045 33.4203 64.9459 32.5356 64.9459 30.8771C64.9459 29.2178 64.4045 28.0568 63.3225 27.2271C62.6733 26.7297 61.8077 26.4534 60.3476 26.4534H55.6946V35.3559ZM49.4738 40.7195V8.75848H69.8144L68.0293 14.122H55.6946V21.2H60.7257C64.7834 21.2 66.8935 22.1949 68.3535 23.467C69.4902 24.4627 71.4378 26.6746 71.4378 31.0424C71.4378 35.3559 69.4355 37.7331 67.7591 38.95C65.8115 40.3322 63.7553 40.7195 59.5898 40.7195H49.4738ZM31.4588 40.7195V14.122H22.4248V8.75848H47.5262L45.7411 14.122H37.7344V40.7195H31.4588ZM6.41127 21.5322H9.92754C11.0095 21.5322 11.5509 21.5322 12.0915 21.3661C13.5524 20.9237 14.4719 19.5966 14.4719 17.772C14.4719 15.6153 13.4985 14.6754 12.0915 14.2331C11.4962 14.067 10.9018 14.0119 9.71114 14.0119H6.41127V21.5322ZM6.46516 27.061V35.4661H10.7931C12.0915 35.4661 13.2821 35.3559 14.1477 34.5263C15.0133 33.6966 15.3914 32.6458 15.3914 31.2636C15.3914 30.2127 15.1211 29.2178 14.5805 28.4992C13.6602 27.3381 12.5243 27.061 10.5767 27.061H6.46516ZM16.4734 23.6881V23.7992C17.664 24.2415 18.7999 25.0153 19.3952 25.5127C21.2342 27.061 22.0459 29.1076 22.0459 31.7619C22.0459 36.1297 19.7741 39.2814 16.0406 40.2771C14.9047 40.6085 13.7149 40.7195 11.4962 40.7195H0.19043V8.75848H10.1987C12.254 8.75848 13.6602 8.8695 14.9047 9.20086C18.5296 10.1966 20.91 12.7398 20.91 16.7763C20.91 18.9331 20.1522 20.7576 18.9077 21.9737C18.3671 22.5271 17.6101 23.1907 16.4734 23.6881Z" fill="white"></path>
+							</svg></div>
+						<div class="footer__logo mobile"><svg width="224" height="28" viewbox="0 0 224 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M205.202 0.000976562H206.686L213.915 16.2284H212.431L205.202 0.000976562ZM214.946 16.2284H216.352L209.123 0.000976562H207.716L214.946 16.2284ZM218.638 16.2284L218.768 16.0956L211.599 0.000976562H210.193L217.422 16.2284H218.638ZM156.703 10.722H144.777L144.647 10.5891H138.205L138.075 10.7228V12.1653H156.19L156.703 10.722ZM138.075 13.0769V14.4437H155.378L155.865 13.0769H138.075ZM138.075 16.7229H154.568L155.055 15.3554H138.075V16.7229ZM78.79 21.9687L78.92 22.1001H85.6946L85.8245 21.9687H97.2565L96.6875 20.5255H79.4244L78.79 21.9687ZM96.3275 19.6138L95.7882 18.247H80.426L79.825 19.6138H96.3275ZM94.889 15.9679H81.429L80.8266 17.3354H95.4289L94.889 15.9679ZM183.405 28H184.804V10.5891H183.405V28ZM185.688 28H187.014V10.5891H185.688V28ZM189.224 28V10.722L189.094 10.5891H188.028L187.898 10.722V28H189.224ZM110.168 0.00171927V13.9077L110.298 14.0376H111.567V0.00171927H110.168ZM112.451 14.0376H113.777V0.00171927H112.451V14.0376ZM114.66 14.0376H115.986V0.00171927H114.66V14.0376Z" fill="white"></path>
+								<path d="M224 27.999H216.687L214.338 22.0242H202.421L200.095 27.999H192.756L204.671 1.0119L207.871 8.18723L204.761 16.0953H218.768L224 27.999ZM144.777 17.6336H138.075V27.999H159.5V21.9997H144.777V17.6336ZM144.777 6.00085H159.069V0.0014847H138.075V10.7211H144.777V6.00085ZM88.4754 0.000742704L81.8322 15.056H88.2853L91.5311 7.77L99.472 27.999H106.811L94.4509 0.000742704H88.4754ZM76.1405 27.999H83.4537L85.8248 21.9685H78.7897L76.1405 27.999ZM122.707 0.0014847H116.925V5.88429H123.174C126.112 5.88429 127.674 7.21691 127.674 9.77598C127.674 12.335 125.929 13.9075 123.174 13.9075H110.167V27.999H116.035V19.8133H122.856C129.621 19.8133 133.558 16.3537 133.558 9.88437C133.558 3.55834 129.836 0.0014847 122.707 0.0014847ZM182.521 10.7211H171.865V0.000742704H165.162V27.999H171.865V16.7219H182.521V10.7218H189.224V0.000742704H182.521V10.7211ZM48.5878 23.3004H52.7081C54.2708 23.3004 55.218 22.9128 55.8806 22.0405C56.2123 21.6047 56.6862 20.8296 56.6862 19.3768C56.6862 17.9231 56.2123 16.906 55.2651 16.1792C54.6968 15.7434 53.9391 15.5014 52.661 15.5014H48.5878V23.3004ZM43.1421 27.999V0H60.9481L59.3855 4.69868H48.5878V10.8992H52.9919C56.544 10.8992 58.3911 11.7708 59.6693 12.8852C60.6643 13.7575 62.3692 15.6952 62.3692 19.5215C62.3692 23.3004 60.6164 25.3828 59.1489 26.4489C57.444 27.6598 55.644 27.999 51.9976 27.999H43.1421ZM27.372 27.999V4.69868H19.4637V0H41.4372L39.8746 4.69868H32.8656V27.999H27.372ZM5.44566 11.1903H8.52377C9.47093 11.1903 9.94488 11.1903 10.4181 11.0447C11.697 10.6572 12.5019 9.49461 12.5019 7.89621C12.5019 6.00679 11.6498 5.18347 10.4181 4.79593C9.89698 4.65042 9.37658 4.60216 8.33433 4.60216H5.44566V11.1903ZM5.49284 16.0337V23.3969H9.2815C10.4181 23.3969 11.4603 23.3004 12.2181 22.5735C12.9758 21.8467 13.3068 20.9261 13.3068 19.7153C13.3068 18.7947 13.0702 17.9231 12.5969 17.2936C11.7913 16.2765 10.797 16.0337 9.09207 16.0337H5.49284ZM14.2539 13.0789V13.1762C15.2962 13.5637 16.2905 14.2415 16.8116 14.6773C18.4215 16.0337 19.132 17.8266 19.132 20.1518C19.132 23.9782 17.1433 26.7392 13.8751 27.6115C12.8807 27.9018 11.8392 27.999 9.89698 27.999H0V0H8.7611C10.5604 0 11.7913 0.0972552 12.8807 0.387535C16.0539 1.25986 18.1377 3.48781 18.1377 7.02389C18.1377 8.9133 17.4743 10.5117 16.3849 11.5771C15.9117 12.0618 15.249 12.6431 14.2539 13.0789Z" fill="white"></path>
+							</svg></div>
+						<div class="footer__media mid"><a class="footer__media-item f" href="#"><svg width="11" height="18" viewbox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M10.7139 7.02198H7.38053V4.38462C7.38053 3.65671 7.97787 3.72528 8.71387 3.72528H10.0472V0.428574H7.38053C6.31967 0.428574 5.30225 0.84537 4.55211 1.58727C3.80196 2.32917 3.38053 3.33541 3.38053 4.38462V7.02198H0.713867V10.3187H3.38053V17.5714H7.38053V10.3187H9.38053L10.7139 7.02198Z" fill="#0E1248"></path>
+								</svg></a><a class="footer__media-item wk" href="#"><svg width="21" height="13" viewbox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M11.5037 12.0222C11.5037 12.0222 11.8819 11.9807 12.0756 11.7756C12.2528 11.5877 12.2467 11.233 12.2467 11.233C12.2467 11.233 12.2231 9.57697 13.003 9.33245C13.7716 9.09197 14.7584 10.934 15.8058 11.6423C16.5969 12.1778 17.1974 12.0606 17.1974 12.0606L19.9961 12.0222C19.9961 12.0222 21.4595 11.9333 20.7657 10.7986C20.7083 10.7056 20.3609 9.9589 18.6854 8.4251C16.9299 6.81955 17.1656 7.07923 19.2787 4.3016C20.5659 2.61017 21.0803 1.57753 20.9194 1.13598C20.7667 0.713625 19.8198 0.825781 19.8198 0.825781L16.6697 0.844979C16.6697 0.844979 16.436 0.813656 16.2628 0.915708C16.0937 1.01574 15.9841 1.24914 15.9841 1.24914C15.9841 1.24914 15.486 2.55763 14.8209 3.6711C13.418 6.0193 12.8575 6.14358 12.6279 5.99808C12.094 5.65758 12.2272 4.63201 12.2272 3.9035C12.2272 1.62704 12.5777 0.678261 11.5457 0.43273C11.2035 0.350887 10.9514 0.297335 10.0752 0.288241C8.951 0.277127 8 0.292283 7.46096 0.551959C7.10229 0.72474 6.8256 1.11072 6.99469 1.13295C7.20272 1.16023 7.67412 1.25824 7.92416 1.59369C8.24697 2.02716 8.2357 2.99918 8.2357 2.99918C8.2357 2.99918 8.42118 5.67879 7.80222 6.01122C7.37796 6.23957 6.79588 5.77377 5.54462 3.64281C4.90413 2.55157 4.42044 1.34513 4.42044 1.34513C4.42044 1.34513 4.32718 1.11981 4.16014 0.998562C3.95826 0.852052 3.67644 0.806583 3.67644 0.806583L0.683056 0.825781C0.683056 0.825781 0.233177 0.837906 0.0681873 1.03089C-0.0783565 1.20165 0.0569147 1.55631 0.0569147 1.55631C0.0569147 1.55631 2.40059 6.96303 5.05478 9.68811C7.48863 12.1859 10.2514 12.0222 10.2514 12.0222H11.5037Z" fill="#0E1248"></path>
+								</svg></a><a class="footer__media-item inst" href="#"><svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M8.9999 0.618301C6.72375 0.618301 6.4381 0.628254 5.54412 0.668937C4.65189 0.709794 4.04287 0.85105 3.50997 1.05831C2.95874 1.27237 2.49115 1.55872 2.02531 2.02474C1.55911 2.49059 1.27276 2.95818 1.05799 3.50924C0.850214 4.0423 0.708784 4.6515 0.668625 5.54338C0.62864 6.43736 0.618164 6.72319 0.618164 8.99934C0.618164 11.2755 0.628291 11.5603 0.668799 12.4542C0.709832 13.3465 0.851087 13.9555 1.05817 14.4884C1.27241 15.0396 1.55876 15.5072 2.02478 15.9731C2.49045 16.4393 2.95805 16.7263 3.50892 16.9404C4.04217 17.1476 4.65137 17.2889 5.54342 17.3297C6.4374 17.3704 6.72288 17.3804 8.99885 17.3804C11.2752 17.3804 11.56 17.3704 12.4539 17.3297C13.3462 17.2889 13.9559 17.1476 14.4891 16.9404C15.0402 16.7263 15.5071 16.4393 15.9728 15.9731C16.4389 15.5072 16.7253 15.0396 16.9401 14.4886C17.1461 13.9555 17.2875 13.3463 17.3294 12.4544C17.3696 11.5604 17.3801 11.2755 17.3801 8.99934C17.3801 6.72319 17.3696 6.43754 17.3294 5.54356C17.2875 4.65133 17.1461 4.04231 16.9401 3.50941C16.7253 2.95818 16.4389 2.49059 15.9728 2.02474C15.5066 1.55855 15.0404 1.2722 14.4886 1.05831C13.9543 0.85105 13.345 0.709794 12.4527 0.668937C11.5587 0.628254 11.2741 0.618301 8.99728 0.618301H8.9999ZM8.9999 2.12863C8.72019 2.12863 8.4712 2.12829 8.24805 2.12863V2.12654C6.68604 2.12829 6.38642 2.13876 5.61327 2.17368C4.79611 2.21122 4.35244 2.34741 4.05701 2.46265C3.66589 2.61491 3.38653 2.7965 3.09319 3.08983C2.79985 3.38317 2.61792 3.66254 2.46601 4.05365C2.35129 4.34909 2.21475 4.79258 2.17739 5.60973C2.13723 6.49324 2.1292 6.75724 2.1292 8.99532C2.1292 11.2334 2.13723 11.4988 2.17739 12.3823C2.21458 13.1995 2.35129 13.643 2.46601 13.938C2.61826 14.3293 2.79985 14.608 3.09319 14.9013C3.38653 15.1947 3.66589 15.3763 4.05701 15.5282C4.35262 15.6429 4.79611 15.7794 5.61327 15.8171C6.49677 15.8573 6.76199 15.866 8.9999 15.866C11.2376 15.866 11.503 15.8573 12.3865 15.8171C13.2037 15.7798 13.6475 15.6436 13.9426 15.5283C14.3339 15.3764 14.6124 15.1948 14.9057 14.9015C15.1991 14.6083 15.381 14.3299 15.5329 13.9387C15.6476 13.6437 15.7842 13.2002 15.8215 12.383C15.8617 11.4995 15.8704 11.2341 15.8704 8.99742C15.8704 6.76073 15.8617 6.49533 15.8215 5.61183C15.7844 4.79468 15.6476 4.35118 15.5329 4.0561C15.3807 3.66498 15.1991 3.38562 14.9057 3.09228C14.6126 2.79894 14.3337 2.61735 13.9426 2.46545C13.6472 2.35073 13.2037 2.21419 12.3865 2.17682C11.5029 2.13667 11.2376 2.12863 8.9999 2.12863Z" fill="#0E1248"></path>
+									<path d="M8.9999 6.20566C10.5427 6.20566 11.7936 7.45636 11.7936 8.99934C11.7936 10.5421 10.5427 11.793 8.9999 11.793C7.45692 11.793 6.20622 10.5421 6.20622 8.99934C6.20622 7.45636 7.45692 6.20566 8.9999 6.20566Z" fill="#0E1248"></path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M8.24805 2.12863C8.4712 2.12829 8.72019 2.12863 8.9999 2.12863C11.2376 2.12863 11.5029 2.13667 12.3865 2.17682C13.2037 2.21419 13.6472 2.35073 13.9426 2.46545C14.3337 2.61735 14.6126 2.79894 14.9057 3.09228C15.1991 3.38562 15.3807 3.66498 15.5329 4.0561C15.6476 4.35118 15.7844 4.79468 15.8215 5.61183C15.8617 6.49533 15.8704 6.76073 15.8704 8.99742C15.8704 11.2341 15.8617 11.4995 15.8215 12.383C15.7842 13.2002 15.6476 13.6437 15.5329 13.9387C15.381 14.3299 15.1991 14.6083 14.9057 14.9015C14.6124 15.1948 14.3339 15.3764 13.9426 15.5283C13.6475 15.6436 13.2037 15.7798 12.3865 15.8171C11.503 15.8573 11.2376 15.866 8.9999 15.866C6.76199 15.866 6.49677 15.8573 5.61327 15.8171C4.79611 15.7794 4.35262 15.6429 4.05701 15.5282C3.66589 15.3763 3.38653 15.1947 3.09319 14.9013C2.79985 14.608 2.61826 14.3293 2.46601 13.938C2.35129 13.643 2.21458 13.1995 2.17739 12.3823C2.13723 11.4988 2.1292 11.2334 2.1292 8.99532C2.1292 6.75724 2.13723 6.49324 2.17739 5.60973C2.21475 4.79258 2.35129 4.34909 2.46601 4.05365C2.61792 3.66254 2.79985 3.38317 3.09319 3.08983C3.38653 2.7965 3.66589 2.61491 4.05701 2.46265C4.35244 2.34741 4.79611 2.21122 5.61327 2.17368C6.38642 2.13876 6.68604 2.12829 8.24805 2.12654V2.12863ZM12.4679 4.52561C12.4679 3.97019 12.9184 3.52024 13.4736 3.52024C14.0289 3.52024 14.4794 3.97037 14.4794 4.52561C14.4794 5.08086 14.0289 5.53134 13.4736 5.53134C12.9184 5.53134 12.4679 5.08086 12.4679 4.52561ZM4.69589 8.99934C4.69589 6.62244 6.62301 4.69533 8.9999 4.69533C11.3768 4.69533 13.3032 6.62244 13.3032 8.99934C13.3032 11.3762 11.3768 13.3025 8.9999 13.3025C6.62301 13.3025 4.69589 11.3762 4.69589 8.99934Z" fill="#0E1248"></path>
+								</svg></a></div><a class="footer__phone right" href="tel:+74951224222">8 495 122 4222</a>
+					</div>
+					<div class="footer-row bot">
+						<div class="footer__button mobile">Позвонить</div>
+						<div class="footer__copy left">© 2023 ВТБ Арена Парк</div>
+						<div class="footer__address mid">Москва, Ленинградский проспект, д. 36</div>
+						<div class="footer__button right desktop">Позвонить</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>"></script>
+	</body>
+
+</html>
